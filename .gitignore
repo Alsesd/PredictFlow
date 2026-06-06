@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+data/*.db
+data/processed/*.parquet
+data/raw/*.csv
+
+# System/Notebooks
+.ipynb_checkpoints/
+.DS_Store

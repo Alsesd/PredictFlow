@@ -1,0 +1,32 @@
+[project]
+name = "predictflow"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Alsesd", email = "mr.alsesd@gmail.com" }]
+requires-python = ">=3.13,<3.15,!=3.14.1"
+dependencies = [
+    "streamlit>=1.56.0",
+    "keras>=3.14.0",
+    "tensorflow>=2.21.0",
+    "scikit-learn>=1.8.0",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.6",
+    "ipykernel>=7.2.0",
+    "ruff>=0.15.12",
+    "basedpyright>=1.39.3",
+    "lightgbm>=4.6.0",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "keras-tuner>=1.4.8",
+    "tensorboard>=2.20.0"
+]

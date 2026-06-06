@@ -55,7 +55,7 @@ The repository is organized to maintain a clear separation between research, mod
 ├── utils.py            # Preprocessing and inference logic helpers
 ├── pyproject.toml      # Dependency management (Poetry)
 └── README.md           # Project documentation
-
+```
 ## 🚀 Launch Instructions
 
 The fastest way to run PredictFlow is by using the pre-built Docker image hosted on Docker Hub. No local Python environment setup is required!
